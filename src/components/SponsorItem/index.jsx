@@ -3,11 +3,11 @@ function SponsorItem(props) {
   const text = props.text
 
   return (
-    <div className='sponsor-item'>
-    <img className='sponsor-item_logo"' src={logo} />
-    <span>{text}</span>
-  </div>
-  );
+    <div className="sponsor-item">
+      <img className='sponsor-item_logo"' src={logo} />
+      <span>{text}</span>
+    </div>
+  )
 }
 
 export default SponsorItem
