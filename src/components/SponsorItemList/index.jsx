@@ -1,9 +1,9 @@
 import SponsorItem from '../SponsorItem'
 
-import LogoOpendoor from '../../assets/logo-opendoor.png' //figure out why alias is not working properly?
-import LogoBoomerang from '../../assets/logo-boomerang.png'
-import LogoBlimp from '../../assets/logo-blimp.png'
-import LogoDroplet from '../../assets/logo-droplet.png'
+import LogoOpendoor from '@/assets/logo-opendoor.png' //figure out why alias is not working properly?
+import LogoBoomerang from '@/assets/logo-boomerang.png'
+import LogoBlimp from '@/assets/logo-blimp.png'
+import LogoDroplet from '@/assets/logo-droplet.png'
 
 function SponsorItemList() {
   return (
