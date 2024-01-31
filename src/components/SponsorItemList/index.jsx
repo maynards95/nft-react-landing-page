@@ -1,13 +1,13 @@
-import SponsorItem from '../SponsorItem'
-
-import LogoOpendoor from '@/assets/logo-opendoor.png' //figure out why alias is not working properly?
+import SponsorItem from '@/components/SponsorItem'
+import LogoOpendoor from '@/assets/logo-opendoor.png'
 import LogoBoomerang from '@/assets/logo-boomerang.png'
 import LogoBlimp from '@/assets/logo-blimp.png'
 import LogoDroplet from '@/assets/logo-droplet.png'
+import './style.css'
 
 function SponsorItemList() {
   return (
-    <div classname="sponsor-item-list">
+    <div className="sponsor-item-list">
       <SponsorItem logo={LogoBoomerang} text="Boomerang" />
       <SponsorItem logo={LogoBlimp} text="Blimp" />
       <SponsorItem logo={LogoDroplet} text="Droplet" />

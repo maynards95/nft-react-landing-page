@@ -1,0 +1,15 @@
+.sponsor-item-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sponsor-item-list :nth-child(2n) {
+  justify-self: end;
+}
+
+@media (min-width: 576px) {
+  .sponsor-item-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
