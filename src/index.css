@@ -1,3 +1,11 @@
+:root {
+  --color-dark-1: #111111;
+  --color-light-3: #cccccc;
+  --color-pink: #ff3998;
+  --color-white: #ffffff;
+
+}
+
 body {
   margin: 0;
   display: flex;
@@ -5,6 +13,8 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: Inter, 'Courier New', Courier, monospace;
+  background-color: var(--color-dark-1);
+  color: var(--color-light-3);
 }
 
 #root {
@@ -13,7 +23,7 @@ body {
   width: 100%;
 }
 
-.App {
-  width: 100%;
-  max-width: 996px;
+h1 {
+  font-size: 48px;
 }
+

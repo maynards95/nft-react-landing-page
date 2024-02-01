@@ -1,0 +1,21 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_left-launching {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-pink);
+  letter-spacing: 1px;
+}
+
+.hero_left-heading {
+  color: var(--color-white);
+}
+
+.hero_right-image {
+  width: 200px;
+}

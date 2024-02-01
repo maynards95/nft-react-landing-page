@@ -8,3 +8,12 @@
   max-width: 40px;
   max-height: 40px;
 }
+
+.App {
+  width: 100%;
+  max-width: 996px;
+}
+
+.page-container {
+  padding: 8px;
+}

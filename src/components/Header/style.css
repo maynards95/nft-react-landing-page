@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.header_logo {
+  width: 160px;
+}
+
+.header_sign {
+  color: var(--color-pink);
+}
