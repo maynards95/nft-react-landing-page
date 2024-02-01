@@ -3,7 +3,11 @@
   --color-light-3: #cccccc;
   --color-pink: #ff3998;
   --color-white: #ffffff;
+}
 
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -26,4 +30,3 @@ body {
 h1 {
   font-size: 48px;
 }
-

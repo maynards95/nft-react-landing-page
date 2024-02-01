@@ -12,10 +12,13 @@ function Hero(props) {
           Don't miss out on the release of our new NFT. Sign up below to recieve
           updates when we go live.
         </p>
-        <Button text="Sign Up" />
+        <Button className="hero_left-button" text="Sign Up" />
       </div>
       <div className="hero_right">
-        <img className="hero_right-image" src={heroImage} alt="hero image" />
+        <div className="hero_right-image-wrapper">
+          <img className="hero_right-image" src={heroImage} alt="hero image" />
+          <div className="hero_right-image-shadow"></div>
+        </div>
       </div>
     </section>
   )
