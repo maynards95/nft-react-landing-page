@@ -1,0 +1,12 @@
+.nft-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .nft-card-list {
+    flex-direction: row;
+  }
+}
