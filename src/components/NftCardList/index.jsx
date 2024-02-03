@@ -5,7 +5,7 @@ import Nft23232 from '@/assets/nft-23232.png'
 import Nft33333 from '@/assets/nft-33333.png'
 import Nft43234 from '@/assets/nft-43234.png'
 
-const nfts = [
+export const nfts = [
   {
     image: Nft11381,
     name: 'Ezmod',
