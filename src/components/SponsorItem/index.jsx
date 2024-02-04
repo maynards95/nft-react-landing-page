@@ -1,3 +1,5 @@
+import './style.css'
+
 function SponsorItem(props) {
   const logo = props.logo
   const text = props.text
@@ -5,7 +7,7 @@ function SponsorItem(props) {
   return (
     <div className="sponsor-item">
       <img className='sponsor-item_logo"' src={logo} />
-      <span>{text}</span>
+      <span className='sponsor-item_text'>{text}</span>
     </div>
   )
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: var(--color-dark-4);
   padding: 70px;
-  gap: 32px;
+  gap: 24px;
 }
 
 .logo-with-text-heading {

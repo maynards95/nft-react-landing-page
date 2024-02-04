@@ -1,8 +1,20 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 16px 8px;
+  position: fixed;
+  background-color: var(--color-dark-2);
+  width: calc(100% - 16px);
+  z-index: 10;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  max-width: 996px;
 }
 
 .header_logo {

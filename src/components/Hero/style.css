@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  padding: 64px 8px;
 }
 
 .hero_left {
@@ -20,6 +21,9 @@
   letter-spacing: 1px;
 }
 
+.hero_left-heading {
+  color: var(--color-white);
+}
 .hero_left-heading {
   color: var(--color-white);
 }
