@@ -15,5 +15,18 @@
 }
 
 .page-container {
-  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 576px) {
+  .page-container {
+    padding: 8px;
+    gap: 64px;
+  }
+
+  .App_logo-with-text {
+    display: flex;
+    gap: 24px;
+  }
 }

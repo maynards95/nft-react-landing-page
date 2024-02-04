@@ -11,10 +11,14 @@
   background-color: var(--color-orange);
 }
 
+.nft-card-with-text.green {
+  background-color: var(--color-green);
+}
+
 .nft-card-with-text_text {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
 }
 
 .nft-card-with-text_text-check-it-out {
@@ -27,6 +31,7 @@
     flex-direction: row;
     gap: 48px;
     padding: 48px;
+    border-radius: 12px;
   }
   .nft-card-with-text_text {
     max-width: 500px;

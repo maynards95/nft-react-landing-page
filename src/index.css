@@ -2,10 +2,12 @@
   --color-dark-1: #000000;
   --color-dark-2: #111111;
   --color-dark-3: #777777;
+  --color-dark-4: #555555;
   --color-light-3: #cccccc;
   --color-pink: #ff3998;
   --color-white: #ffffff;
   --color-orange: #ff8139;
+  --color-green: #39ffa0;
 }
 
 * {
@@ -35,5 +37,6 @@ h1 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 500;
 }
