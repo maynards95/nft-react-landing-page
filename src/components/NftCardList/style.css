@@ -5,6 +5,9 @@
   align-items: center;
 }
 
+.nft-card {
+}
+
 @media (min-width: 576px) {
   .nft-card-list {
     flex-direction: row;

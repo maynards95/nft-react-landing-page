@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: 24px;
   padding: 64px 8px;
 }
 
 .hero_left {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 25px;
   max-width: 600px;
 }
 
@@ -24,14 +24,12 @@
 .hero_left-heading {
   color: var(--color-white);
 }
-.hero_left-heading {
-  color: var(--color-white);
-}
 
 .hero .button {
   align-self: baseline;
-  margin-top: 8px;
   border-radius: 100px;
+  margin-top: 8px;
+  width: 106px;
 }
 
 .hero_right-image-wrapper {
@@ -50,12 +48,30 @@
   width: 128px;
 }
 
+.p {
+  font-size: 20px;
+}
 @media (min-width: 576px) {
   .hero_right-image {
-    width: 200px;
+    width: 250px;
+  }
+  /* Add "." in front of ".button" to correctly target the class */
+  .hero .button {
+    font-size: 20px;
+    background-size: 100%;
+    width: 188px;
+    height: 75px;
+    border-radius: 100px;
   }
   .hero_right-image-shadow {
-    top: 150px;
-    left: 100px;
+    box-shadow: 0 0 120px 99px var(--color-pink);
+    top: 220px;
+    left: 140px;
+  }
+  .hero_left-description {
+    font-size: 20px;
+  }
+  .hero_left-heading {
+    font-size: 96px;
   }
 }
