@@ -3,11 +3,22 @@
   flex-direction: column;
   gap: 8px;
   align-items: center;
+  margin-top: 18px;
 }
 
-.nft-card {
+.nft-card-list-header {
+  color: var(--color-white);
 }
 
+.nft-card-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nft-card-list-description {
+  color: var(--color-light-2);
+}
 @media (min-width: 576px) {
   .nft-card-list {
     flex-direction: row;

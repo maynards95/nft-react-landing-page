@@ -4,6 +4,7 @@ import Nft11381 from '@/assets/nft-11381.jpg'
 import Nft23232 from '@/assets/nft-23232.jpg'
 import Nft33333 from '@/assets/nft-33333.jpg'
 import Nft43234 from '@/assets/nft-43234.jpg'
+import LinkToOpenSea from '../LinkToOpenSea'
 
 export const nfts = [
   {
@@ -38,18 +39,27 @@ export const nfts = [
 
 function NftCardList() {
   return (
-    <div className="nft-card-list">
-      {nfts.map((nft) => {
-        return (
-          <NftCard
-            image={nft.image}
-            name={nft.name}
-            price={nft.price}
-            daysLeft={nft.daysLeft}
-            number={nft.number}
-          />
-        )
-      })}
+    <div className="nft-card-list-wrapper">
+      <h3 className="nft-card-list-header">
+        Highly Exclusive Super Rare Auction
+      </h3>
+      <p className="nft-card-list-description">
+        We've launched four exclusive limited edition NFTs ahead of schedule,
+        available for bidding through <LinkToOpenSea color="light" />.
+      </p>
+      <div className="nft-card-list">
+        {nfts.map((nft) => {
+          return (
+            <NftCard
+              image={nft.image}
+              name={nft.name}
+              price={nft.price}
+              daysLeft={nft.daysLeft}
+              number={nft.number}
+            />
+          )
+        })}
+      </div>
     </div>
   )
 }

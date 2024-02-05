@@ -23,7 +23,7 @@ function App() {
           descriptionTop={
             <>
               Four exclusive NFTs have been launched ahead of schedule,
-              available for bidding on <LinkToOpenSea />.
+              available for bidding on <LinkToOpenSea color="black" />.
             </>
           }
           descriptionBottom="These will be the only four of these NFTs we ever make, so be sure not to miss out!"
@@ -38,7 +38,7 @@ function App() {
           descriptionTop={
             <>
               Four exclusive NFTs have been launched ahead of schedule,
-              available for bidding on <LinkToOpenSea />.
+              available for bidding on <LinkToOpenSea color="dark" />.
             </>
           }
           descriptionBottom="These will be the only four of these NFTs we ever make, so be sure not to miss out!"
