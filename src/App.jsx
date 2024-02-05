@@ -8,8 +8,8 @@ import EthereumLogoColorful from '@/assets/ethereum-logo.png'
 import Ethereum from '@/assets/ethereum.png'
 import NftCardList, { nfts } from '@/components/NftCardList'
 import NftCardWithText from '@/components/NftCardWithText'
-import LogoWithText from './components/LogoWithText'
-import NftCardWithTextTop from './components/NftCardWithTextTop'
+import LogoWithText from '@/components/LogoWithText'
+import LinkToOpenSea from '@/components/LinkToOpenSea'
 
 function App() {
   return (
@@ -17,19 +17,15 @@ function App() {
       <Header />
       <div className="page-container">
         <Hero heroImage={Nft19941} />
-        <NftCardWithTextTop
-          nftData={nfts[0]}
-          title="Initial Release 23/12"
-          descriptionTop="We have released four
-          limited edition NFTs early which can be bid on via OpenSea."
-          descriptionBottom="These will be the only four of these NFTs we ever
-          make, so be sure not to miss out!"
-          color="orange"
-        />
         <NftCardWithText
           nftData={nfts[0]}
-          title="Initial Release 23/12"
-          descriptionTop="We have released four limited edition NFTs early which can be bid on via OpenSea."
+          title="Full Release 6/10"
+          descriptionTop={
+            <>
+              Four exclusive NFTs have been launched ahead of schedule,
+              available for bidding on <LinkToOpenSea />.
+            </>
+          }
           descriptionBottom="These will be the only four of these NFTs we ever make, so be sure not to miss out!"
           color="orange"
           imageOnRight={true}
@@ -38,8 +34,13 @@ function App() {
         <NftCardList />
         <NftCardWithText
           nftData={nfts[0]}
-          title="Initial Release 23/12"
-          descriptionTop="We have released four limited edition NFTs early which can be bid on via OpenSea."
+          title="Full Release 6/10"
+          descriptionTop={
+            <>
+              Four exclusive NFTs have been launched ahead of schedule,
+              available for bidding on <LinkToOpenSea />.
+            </>
+          }
           descriptionBottom="These will be the only four of these NFTs we ever make, so be sure not to miss out!"
           color="green"
         />

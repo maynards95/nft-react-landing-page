@@ -27,7 +27,7 @@ function NftCardWithText(props) {
         <p>{descriptionTop}</p>
         <p>{descriptionBottom}</p>
         <span className="nft-card-with-text_text-check-it-out">
-          Check it out
+          Check out the collection {'>'}
         </span>
       </div>
     </div>

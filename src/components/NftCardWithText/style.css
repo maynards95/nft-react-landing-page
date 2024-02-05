@@ -34,6 +34,7 @@
   }
   .nft-card-with-text_text {
     max-width: 500px;
+    gap: 32px;
   }
   .nft-card-with-text.image-on-right .nft-card-with-text_text {
     order: 1;

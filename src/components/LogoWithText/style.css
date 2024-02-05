@@ -1,9 +1,13 @@
 .logo-with-text {
   display: flex;
   flex-direction: column;
-  background-color: var(--color-dark-4);
+
   padding: 70px;
   gap: 24px;
+}
+
+.logo-with-text:nth-child(1) {
+  background-color: var(--color-dark-4);
 }
 
 .logo-with-text-heading {
@@ -17,5 +21,6 @@
 @media (min-width: 576px) {
   .logo-with-text {
     border-radius: 12px;
+    background-color: var(--color-dark-4);
   }
 }

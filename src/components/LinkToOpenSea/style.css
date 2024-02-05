@@ -1,0 +1,10 @@
+.opensea-link {
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.opensea-link:hover {
+  color: white;
+  opacity: 75%; /* Example color change on hover */
+}
