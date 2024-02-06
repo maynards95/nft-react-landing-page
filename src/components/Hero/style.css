@@ -55,7 +55,9 @@
   .hero_right-image {
     width: 250px;
   }
-  
+  .hero {
+    padding: 100px 0px;
+  }
   .hero .button {
     font-size: 20px;
     background-size: 100%;

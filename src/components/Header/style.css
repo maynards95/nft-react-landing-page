@@ -26,6 +26,12 @@
   color: var(--color-pink);
 }
 
+.header_sign:hover {
+  color: white;
+  opacity: 75%;
+  cursor: pointer;
+}
+
 @media (min-width: 576px) {
   .header {
     width: calc(100% - 16px);

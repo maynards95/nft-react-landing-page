@@ -20,7 +20,7 @@
   .sponsor-item-list {
     display: flex;
     justify-content: space-between;
-    padding: 0% 8px;
+    padding: 0px;
   }
   .sponsor-item_text {
     font-size: 31px;
