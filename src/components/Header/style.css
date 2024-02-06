@@ -5,8 +5,9 @@
   padding: 16px 8px;
   position: fixed;
   background-color: var(--color-dark-2);
-  width: calc(100% - 16px);
+  width: calc(100% - 88px);
   z-index: 10;
+  padding: 0px 44px;
 }
 
 .header_wrapper {
@@ -23,4 +24,11 @@
 
 .header_sign {
   color: var(--color-pink);
+}
+
+@media (min-width: 576px) {
+  .header {
+    width: calc(100% - 16px);
+    padding: 0px;
+  }
 }

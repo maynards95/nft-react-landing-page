@@ -1,8 +1,7 @@
 .logo-with-text {
   display: flex;
   flex-direction: column;
-
-  padding: 70px;
+  padding: 40px;
   gap: 24px;
 }
 

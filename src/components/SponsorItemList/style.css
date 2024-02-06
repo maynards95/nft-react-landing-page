@@ -1,14 +1,15 @@
 .sponsor-item-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 32px 14px;
+  padding: 0px 44px;
+  padding-top: 44px;
 }
 .sponsor-item_text {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .sponsor-item {
-  padding: 6px 20px;
+  padding: 10px 0px;
 }
 
 .sponsor-item-list :nth-child(2n) {
