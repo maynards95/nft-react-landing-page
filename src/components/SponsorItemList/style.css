@@ -1,6 +1,15 @@
 .sponsor-item-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0px 44px;
+  padding-top: 44px;
+}
+.sponsor-item_text {
+  font-size: 24px;
+}
+
+.sponsor-item {
+  padding: 10px 0px;
 }
 
 .sponsor-item-list :nth-child(2n) {
@@ -11,5 +20,9 @@
   .sponsor-item-list {
     display: flex;
     justify-content: space-between;
+    padding: 0px;
+  }
+  .sponsor-item_text {
+    font-size: 31px;
   }
 }

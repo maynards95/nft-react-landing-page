@@ -17,6 +17,7 @@ function NftCard(props) {
             alt="ethereum-logo"
           />{' '}
           {price}
+          <span>ETH</span>
         </span>
         <span className="nft-card_details-number">#{number}</span>
         <span className="nft-card_details-days-left">{daysLeft} days left</span>

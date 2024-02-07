@@ -1,0 +1,21 @@
+.opensea-link {
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.opensea-link.black {
+  color: black;
+}
+
+.opensea-link.dark {
+  color: var(--color-dark-4);
+}
+
+.opensea-link.light {
+  color: var(--color-light-2);
+}
+
+.opensea-link:hover {
+  color: white;
+  opacity: 75%; /* Example color change on hover */
+}

@@ -1,0 +1,25 @@
+.logo-with-text {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 24px;
+}
+
+.logo-with-text:nth-child(1) {
+  background-color: var(--color-dark-4);
+}
+
+.logo-with-text-heading {
+  color: var(--color-white);
+}
+
+.logo-with-text_image {
+  width: 40px;
+}
+
+@media (min-width: 576px) {
+  .logo-with-text {
+    border-radius: 12px;
+    background-color: var(--color-dark-4);
+  }
+}

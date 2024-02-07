@@ -8,7 +8,7 @@ function Hero(props) {
       <div className="hero_left">
         <span className="hero_left-launching">Launching Soon</span>
         <h1 className="hero_left-heading">An NFT like no other</h1>
-        <p>
+        <p className="hero_left-description">
           Don't miss out on the release of our new NFT. Sign up below to recieve
           updates when we go live.
         </p>
