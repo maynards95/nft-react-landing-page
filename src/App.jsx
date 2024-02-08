@@ -47,15 +47,15 @@ function App() {
         <div className="App_logo-with-text">
           <LogoWithText
             logo={EthereumLogoColorful}
-            title="An NFT Like No Other"
-            descriptionTop="Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live on 18/9."
-            descriptionBottom="Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live on 18/9. Don’t miss out on the release of our new NFT."
+            title="Experience a Unique NFT"
+            descriptionTop="Ensure you're part of our groundbreaking NFT launch. Register below to stay informed when we debut on 18/9."
+            descriptionBottom="Ensure you're part of our groundbreaking NFT launch. Register below to stay informed when we debut on 18/9. Don't miss out!"
           />{' '}
           <LogoWithText
             logo={Ethereum}
-            title="An NFT Like No Other"
-            descriptionTop="Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live on 18/9."
-            descriptionBottom="Don’t miss out on the release of our new NFT. Sign up below to receive updates when we go live on 18/9. Don’t miss out on the release of our new NFT."
+            title="Experience a Unique NFT"
+            descriptionTop="Ensure you're part of our groundbreaking NFT launch. Register below to stay informed when we debut on 18/9."
+            descriptionBottom="Ensure you're part of our groundbreaking NFT launch. Register below to stay informed when we debut on 18/9. Don't miss out!"
           />
         </div>
         <Hero heroImage={Nft55555} />
