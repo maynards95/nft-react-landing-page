@@ -14,7 +14,7 @@
 }
 
 .hero_left-launching {
-  font-size: 14px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 500;
   color: var(--color-pink);
@@ -45,7 +45,13 @@
 }
 
 .hero_right-image {
-  width: 128px;
+  position: relative;
+  width: 150px;
+  top: -20px;
+}
+
+.hero_left-description {
+  letter-spacing: 1px;
 }
 
 .hero:nth-of-type(2) {
@@ -57,10 +63,7 @@
 }
 @media (min-width: 576px) {
   .hero_right-image {
-    width: 250px;
-  }
-  .hero {
-    padding: 100px 0px;
+    width: 300px;
   }
   .hero .button {
     font-size: 20px;
