@@ -48,6 +48,10 @@
   width: 128px;
 }
 
+.hero:nth-of-type(2) {
+  border-top: 2px solid var(--color-dark-4);
+}
+
 .p {
   font-size: 20px;
 }
