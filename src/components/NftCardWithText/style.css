@@ -6,7 +6,8 @@
   align-items: center;
   gap: 24px;
   color: var(--color-dark-2);
-  padding: 44px;
+  padding: 24px;
+  justify-content: center;
 }
 
 .nft-card-with-text.orange {

@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-top: 2px solid var(--color-dark-4);
+  padding: 64px 8px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-about,
+.footer-nft,
+.footer-contact,
+.footer-social {
+  line-height: 160%;
+}
+
+.footer-about-title,
+.footer-nft-title,
+.footer-contact-title,
+.footer-social-title {
+  padding-bottom: 10px;
+}
