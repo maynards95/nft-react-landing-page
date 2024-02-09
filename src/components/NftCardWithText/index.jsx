@@ -23,9 +23,11 @@ function NftCardWithText(props) {
         number={nftData.number}
       ></NftCard>
       <div className="nft-card-with-text_text">
-        <h3>{title}</h3>
-        <p>{descriptionTop}</p>
-        <p>{descriptionBottom}</p>
+        <h3 className='nft-card-with-text_title'>{title}</h3>
+        <div className="nft-card-with-text_description">
+          <p>{descriptionTop}</p>
+          <p>{descriptionBottom}</p>
+        </div>
         <span className="nft-card-with-text_text-check-it-out">
           Check out the collection {'>'}
         </span>

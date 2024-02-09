@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 64px 8px;
+  padding: 64px 44px;
 }
 
 .hero_left {
@@ -59,7 +59,9 @@
   .hero_right-image {
     width: 250px;
   }
-  /* Add "." in front of ".button" to correctly target the class */
+  .hero {
+    padding: 100px 0px;
+  }
   .hero .button {
     font-size: 20px;
     background-size: 100%;
