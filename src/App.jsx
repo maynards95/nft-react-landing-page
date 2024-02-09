@@ -10,6 +10,7 @@ import NftCardList, { nfts } from '@/components/NftCardList'
 import NftCardWithText from '@/components/NftCardWithText'
 import LogoWithText from '@/components/LogoWithText'
 import LinkToOpenSea from '@/components/LinkToOpenSea'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           />
         </div>
         <Hero heroImage={Nft55555} />
+        <Footer />
       </div>
     </div>
   )
