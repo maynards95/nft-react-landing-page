@@ -1,9 +1,9 @@
 .logo-with-text {
   display: flex;
   flex-direction: column;
-
   padding: 70px;
   gap: 24px;
+  border-bottom: px solid var(--color-dark-4);
 }
 
 .logo-with-text:nth-child(1) {

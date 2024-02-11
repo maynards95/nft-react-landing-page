@@ -2,10 +2,12 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 24px;
   color: var(--color-dark-2);
   padding: 24px;
+  justify-content: center;
 }
 
 .nft-card-with-text.orange {
@@ -16,10 +18,25 @@
   background-color: var(--color-green);
 }
 
+.nft-card-with-text.green .nft-card-with-text_description {
+  color: var(--color-dark-4);
+}
+
 .nft-card-with-text_text {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  justify-content: center;
+  gap: 20px;
+}
+.nft-card-with-text_title {
+  justify-content: center;
+  display: flex;
+}
+.nft-card-with-text_description {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  gap: 18px;
 }
 
 .nft-card-with-text_text-check-it-out {
@@ -43,5 +60,8 @@
 
   .nft-card-with-text.image-on-right .nft-card {
     order: 2;
+  }
+  .nft-card-with-text_description {
+    font-size: 17px;
   }
 }

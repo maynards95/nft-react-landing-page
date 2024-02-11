@@ -18,7 +18,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 24px;
-  gap: 2px;
+  gap: 4px;
+  align-items: center;
 }
 
 .nft-card_details :nth-child(2n) {
@@ -29,14 +30,14 @@
   color: var(--color-orange);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 9px;
 }
 
 .nft-card_details-top-bid {
   color: var(--color-dark-3);
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .nft-card_details-name {
@@ -52,12 +53,12 @@
 
 .nft-card_details-number {
   color: var(--color-dark-3);
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .nft-card_details-days-left {
   color: var(--color-dark-3);
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .nft-card_details-ethereum-logo {

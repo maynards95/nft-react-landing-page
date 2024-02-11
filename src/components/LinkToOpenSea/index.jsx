@@ -1,9 +1,10 @@
 import './style.css'
 
-const LinkToOpenSea = () => {
+const LinkToOpenSea = (props) => {
+  const { color } = props
   return (
     <a
-      className="opensea-link"
+      className={`opensea-link ${color}`}
       href="https://opensea.io/"
       target="_blank"
       rel="noopener noreferrer"
