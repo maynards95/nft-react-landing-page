@@ -24,4 +24,7 @@
   .nft-card-list {
     flex-direction: row;
   }
+  .nft-card-list-wrapper {
+    padding: 0px;
+  }
 }

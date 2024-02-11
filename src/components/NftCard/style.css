@@ -64,3 +64,9 @@
 .nft-card_details-ethereum-logo {
   height: 16px;
 }
+
+@media (min-width:576px) {
+  .nft-card_img {
+    max-height: 192px;
+  }
+}

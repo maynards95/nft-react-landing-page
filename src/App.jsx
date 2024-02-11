@@ -19,7 +19,7 @@ function App() {
       <div className="page-container">
         <Hero heroImage={Nft19941} />
         <NftCardWithText
-          nftData={nfts[0]}
+          nftData={nfts[3]}
           title="Full Release 6/10"
           descriptionTop={
             <>

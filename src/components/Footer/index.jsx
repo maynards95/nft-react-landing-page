@@ -12,18 +12,24 @@ function Footer() {
         <section className="footer-nftlanding">
           <img className="footer-logo" src={AppLogo} alt="app logo" />
           <div>Exclusive NFT Collection</div>
-          <img
-            className="facebook-logo"
-            src={FacebookLogo}
-            alt="Facebook logo"
-          />
-          <img
-            className="instagram-logo"
-            src={InstagramLogo}
-            alt="Instagram logo"
-          />
-          <img className="twitter-logo" src={TwitterLogo} alt="Twitter logo" />
-          <img className="tiktok-logo" src={TikTokLogo} alt="TikTok logo" />
+          <div className="footer-logo-row">
+            <img
+              className="facebook-logo"
+              src={FacebookLogo}
+              alt="Facebook logo"
+            />
+            <img
+              className="instagram-logo"
+              src={InstagramLogo}
+              alt="Instagram logo"
+            />
+            <img
+              className="twitter-logo"
+              src={TwitterLogo}
+              alt="Twitter logo"
+            />
+            <img className="tiktok-logo" src={TikTokLogo} alt="TikTok logo" />
+          </div>
         </section>
         <div className="footer-links">
           <div className="footer-about">

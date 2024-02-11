@@ -1,7 +1,7 @@
 .logo-with-text {
   display: flex;
   flex-direction: column;
-  padding: 70px;
+  padding: 44px;
   gap: 24px;
   border-bottom: px solid var(--color-dark-4);
 }
@@ -20,7 +20,9 @@
 
 @media (min-width: 576px) {
   .logo-with-text {
-    border-radius: 12px;
+    border-radius: 16px;
+    gap: 34px;
     background-color: var(--color-dark-4);
+    padding: 64px;
   }
 }

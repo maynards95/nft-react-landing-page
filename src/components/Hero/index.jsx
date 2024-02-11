@@ -17,7 +17,8 @@ function Hero(props) {
       <div className="hero_right">
         <div className="hero_right-image-wrapper">
           <img className="hero_right-image" src={heroImage} alt="hero image" />
-          <div className="hero_right-image-shadow"></div>
+          <div className="hero_right-image-shadow-orange"></div>
+          <div className="hero_right-image-shadow-pink"></div>
         </div>
       </div>
     </section>

@@ -6,16 +6,32 @@
   align-items: center;
   gap: 24px;
   color: var(--color-dark-2);
-  padding: 24px;
+  padding: 44px;
   justify-content: center;
 }
 
 .nft-card-with-text.orange {
   background-color: var(--color-orange);
+  padding-top: 64px;
 }
 
 .nft-card-with-text.green {
   background-color: var(--color-green);
+}
+
+.nft-card-with-text .nft-card {
+  width: 170px;
+  height: 240px;
+}
+
+.nft-card-with-text .nft-card_details {
+  gap: 1px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.nft-card-with-text .nft-card_details-series {
+  font-size: 8px;
 }
 
 .nft-card-with-text.green .nft-card-with-text_description {
@@ -47,8 +63,8 @@
   .nft-card-with-text {
     flex-direction: row;
     gap: 48px;
-    padding: 48px;
-    border-radius: 12px;
+    padding: 64px 48px;
+    border-radius: 16px;
   }
   .nft-card-with-text_text {
     max-width: 500px;
