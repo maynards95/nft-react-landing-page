@@ -5,7 +5,7 @@
   padding: 16px 8px;
   position: fixed;
   background-color: var(--color-dark-2);
-  width: calc(100% - 44px);
+  width: calc(100% - 88px);
   z-index: 10;
   padding: 0px 44px;
 }

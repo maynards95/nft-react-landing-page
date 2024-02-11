@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-direction: column;
   border-top: 2px solid var(--color-dark-4);
-  padding: 64px 44px;
+  padding: 44px;
 }
 
 .footer-nftlanding {
@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-bottom: 44px;
 }
 
 .footer-logo {
@@ -26,14 +25,14 @@
 
 .footer-logo-row {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   width: 20px;
 }
 .footer-links {
   padding: 36px 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 20px;
 }
 
 .footer-bottom {
@@ -64,14 +63,16 @@
 @media (min-width: 576px) {
   .footer {
     padding: 64px 0px;
+    padding-top: 128px;
   }
   .footer-top {
     flex-direction: row;
   }
   .footer-links {
-    padding: 0px 26px;
+    padding: 0px 34px;
     display: flex;
     flex-direction: row;
+    gap: 60px;
   }
   .footer-top {
     padding-bottom: 80px;

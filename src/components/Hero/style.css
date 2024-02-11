@@ -64,6 +64,7 @@
 
 .hero:nth-of-type(2) {
   border-top: 2px solid var(--color-dark-4);
+  padding: 44px;
 }
 
 .p {
@@ -73,6 +74,8 @@
 @media (min-width: 576px) {
   .hero_right-image {
     width: 280px;
+    position: relative;
+    top: -20px;
   }
   .hero_right-image-wrapper {
     position: relative;
@@ -84,6 +87,9 @@
     width: 188px;
     height: 75px;
     border-radius: 100px;
+  }
+  .hero:nth-of-type(2) {
+    padding: 64px 0px;
   }
   .hero_right-image-shadow-pink {
     box-shadow: 0 0 120px 120px var(--color-pink);

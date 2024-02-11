@@ -8,13 +8,6 @@ import LinkToOpenSea from '../LinkToOpenSea'
 
 export const nfts = [
   {
-    image: Nft43234,
-    name: 'Ecm',
-    price: 1.99,
-    daysLeft: 3,
-    number: 43234,
-  },
-  {
     image: Nft23232,
     name: 'Azmod',
     price: 1.23,
@@ -34,6 +27,13 @@ export const nfts = [
     price: 1.56,
     daysLeft: 18,
     number: 11381,
+  },
+  {
+    image: Nft43234,
+    name: 'Ecm',
+    price: 1.99,
+    daysLeft: 3,
+    number: 43234,
   },
 ]
 
