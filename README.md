@@ -1,4 +1,4 @@
-# NFT Home Page 
+# NFT React Landing Page
 
 Created with [React](https://react.dev/) and [Vite](https://vitejs.dev/)
 
